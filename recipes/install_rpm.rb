@@ -18,7 +18,7 @@
 # limitations under the License.
 #
 
-include_recipe 'yum-epel'
+include_recipe 'yum::epel'
 include_recipe "#{cookbook_name}::services"
 
 yum_options = []
